@@ -1,83 +1,68 @@
 const cursos = {
   // Recife
-  medicina_recife: { corte: 78.25, campus: "Recife" },
-  engenharia_comp_recife: { corte: 71.53, campus: "Recife" },
-  direito_recife: { corte: 70.87, campus: "Recife" },
-  odontologia_recife: { corte: 61.65, campus: "Recife" },
-  ciencias_biologicas_recife: { corte: 58.5, campus: "Recife" },
-  enfermagem_recife: { corte: 55.96, campus: "Recife" },
-  saude_coletiva_recife: { corte: 51.52, campus: "Recife" },
-  terapia_ocupacional_recife: { corte: 56.42, campus: "Recife" },
-  educacao_fisica_recife: { corte: 45.24, campus: "Recife" },
-  ciencias_sociais_recife: { corte: 55.14, campus: "Recife" },
-  administracao_recife: { corte: 55.28, campus: "Recife" },
-  engenharia_civil_recife: { corte: 50.74, campus: "Recife" },
-  engenharia_automacao_controle_recife: { corte: 55.68, campus: "Recife" },
-  engenharia_eletrica_eletrotecnica_recife: { corte: 48.36, campus: "Recife" },
-  engenharia_telecom_recife: { corte: 42.20, campus: "Recife" },
-  engenharia_eletrica_recife: { corte: 55.95, campus: "Recife" },
-  engenharia_mecanica_recife: { corte: 55.1, campus: "Recife" },
-  fisica_material_recife: { corte: 55.41  , campus: "Recife" },
+  medicina_recife: { corte: 73.65, campus: "Recife" },
+  engenharia_comp_recife: { corte: 61.57, campus: "Recife" },
+  direito_recife: { corte: 65.87, campus: "Recife" },
+  odontologia_recife: { corte: 55.87, campus: "Recife" },
+  ciencias_biologicas_recife: { corte: 47.86, campus: "Recife" },
+  enfermagem_recife: { corte: 49.76, campus: "Recife" },
+  saude_coletiva_recife: { corte: 36.75, campus: "Recife" },
+  terapia_ocupacional_recife: { corte: 52.87, campus: "Recife" },
+  educacao_fisica_recife: { corte: 45.63, campus: "Recife" },
+  ciencias_sociais_recife: { corte: 37.65, campus: "Recife" },
+  administracao_recife: { corte: 46.82, campus: "Recife" },
+  engenharia_civil_recife: { corte: 43.24, campus: "Recife" },
+  engenharia_automacao_controle_recife: { corte: 42.21, campus: "Recife" },
+  engenharia_eletrica_eletrotecnica_recife: { corte: 38.64, campus: "Recife" },
+  engenharia_telecom_recife: { corte: 35.68, campus: "Recife" },
+  engenharia_eletrica_recife: { corte: 38.57, campus: "Recife" },
+  engenharia_mecanica_recife: { corte: 34.65, campus: "Recife" },
+  fisica_material_recife: { corte: 32.94, campus: "Recife" },
 
   // Caruaru
-  sistemas_informacao_caruaru: { corte: 55.67, campus: "Caruaru" },
-  administracao_caruaru: { corte: 47.74, campus: "Caruaru" },
+  sistemas_informacao_caruaru: { corte: 52.95, campus: "Caruaru" },
+  administracao_caruaru: { corte: 36.45, campus: "Caruaru" },
 
   // Nazré da Mata
-  ciencia_computacao_nazare: { corte: 45.89, campus: "Nazré da Mata" },
-  ciencias_biologicas_nazare: { corte: 42.44, campus: "Nazré da Mata" },
-  geografia_nazare: { corte: 35.85, campus: "Nazré da Mata" },
-  historia_nazare: { corte: 47.84, campus: "Nazré da Mata" },
-  letras_port_esp_nazare: { corte: 36.42, campus: "Nazré da Mata" },
-  letras_port_ing_nazare: { corte: 45.09, campus: "Nazré da Mata" },
-  matematica_nazare: { corte: 43.59, campus: "Nazré da Mata" },
-  pedagogia_nazare: { corte: 38.84, campus: "Nazré da Mata" },
-  tecnologia_logistica_nazare: { corte: 36.66, campus: "Nazré da Mata" },
+  ciencia_computacao_nazare: { corte: 43.90, campus: "Nazré da Mata" },
+  ciencias_biologicas_nazare: { corte: 32.16, campus: "Nazré da Mata" },
+  geografia_nazare: { corte: 26.36, campus: "Nazré da Mata" },
+  historia_nazare: { corte: 33.58, campus: "Nazré da Mata" },
+  letras_port_esp_nazare: { corte: 32.00, campus: "Nazré da Mata" },
+  letras_port_ing_nazare: { corte: 34.25, campus: "Nazré da Mata" },
+  matematica_nazare: { corte: 39.56, campus: "Nazré da Mata" },
+  pedagogia_nazare: { corte: 32.00, campus: "Nazré da Mata" },
+  tecnologia_logistica_nazare: { corte: 32.00, campus: "Nazré da Mata" },
 
   // Garanhuns
-  medicina_garanhuns: { corte: 74.23, campus: "Garanhuns" },
-  psicologia_garanhuns: { corte: 59.70, campus: "Garanhuns" },
-  engenharia_software_garanhuns: { corte: 60.3, campus: "Garanhuns" },
-  computacao_garanhuns: { corte: 43.96, campus: "Garanhuns" },
-  ciencias_biologicas_l_garanhuns: { corte: 43.27, campus: "Garanhuns" },
-  geografia_garanhuns: { corte: 22.59, campus: "Garanhuns" },
-  historia_garanhuns: { corte: 45.32, campus: "Garanhuns" },
-  letras_portuguesa_garanhuns: { corte: 40.23, campus: "Garanhuns" },
-  matematica_garanhuns: { corte: 42.50, campus: "Garanhuns" },
-  pedagogia_garanhuns: { corte: 36.60, campus: "Garanhuns" },
+  medicina_garanhuns: { corte: 71.40, campus: "Garanhuns" },
+  psicologia_garanhuns: { corte: 52.84, campus: "Garanhuns" },
+  engenharia_software_garanhuns: { corte: 52.64, campus: "Garanhuns" },
+  computacao_garanhuns: { corte: 24.56, campus: "Garanhuns" },
+  ciencias_biologicas_l_garanhuns: { corte: 38.58, campus: "Garanhuns" },
 
   // Petrolina
-  fisioterapia_petrolina: { corte: 51.25, campus: "Petrolina" },
-  enfermagem_petrolina: { corte: 53.80, campus: "Petrolina" },
-  nutricao_petrolina: { corte: 52.04, campus: "Petrolina" },
-  geografia_petrolina: { corte: 21.57, campus: "Petrolina" },
-  historia_petrolina: { corte: 29.15, campus: "Petrolina" },
-  letras_port_ingles_petrolina: { corte: 29.12, campus: "Petrolina" },
-  letras_port_espanhol_petrolina: { corte: 28.82, campus: "Petrolina" },
-  matematica_petrolina: { corte: 31.54, campus: "Petrolina" },
-  ciencias_biologicas_l_petrolina: { corte: 43.85, campus: "Petrolina" },
-  pedagogia_petrolina: { corte: 25.30, campus: "Petrolina" },
+  fisioterapia_petrolina: { corte: 46.56, campus: "Petrolina" },
+  enfermagem_petrolina: { corte: 42.67, campus: "Petrolina" },
+  nutricao_petrolina: { corte: 36.27, campus: "Petrolina" },
+  geografia_petrolina: { corte: 32.56, campus: "Petrolina" },
+  historia_petrolina: { corte: 32.00, campus: "Petrolina" },
+  letras_port_ingles_petrolina: { corte: 28.65, campus: "Petrolina" },
+  letras_port_espanhol_petrolina: { corte: 23.56, campus: "Petrolina" },
+  matematica_petrolina: { corte: 35.00, campus: "Petrolina" },
+  ciencias_biologicas_l_petrolina: { corte: 38.45, campus: "Petrolina" },
+  pedagogia_petrolina: { corte: 25.00, campus: "Petrolina" },
 
   // Arcoverde
-  direito_arcoverde: { corte: 50.07, campus: "Arcoverde" },
-  odontologia_arcoverde: { corte: 58.31, campus: "Arcoverde" },
+  direito_arcoverde: { corte: 54.63, campus: "Arcoverde" },
+  odontologia_arcoverde: { corte: 49.97, campus: "Arcoverde" },
 
   // Serratalhada
-  medicina_serratalhada: { corte: 73.49, campus: "Serratalhada" },
+  medicina_serratalhada: { corte: 71.57, campus: "Serratalhada" },
 
   // Surubim
-  engenharia_software_surubim: { corte: 51.21, campus: "Surubim" },
-  sistemas_informacao_surubim: { corte: 37.95, campus: "Surubim" },
-
-  // Salgueiro
-  administracao_salgueiro: { corte: 33.18, campus: "Salgueiro" },
-
-  // Ouricuri
-  enfermagem_ouricuri: { corte: 39.84, campus: "Ouricuri" },
-
-  // Palmares
-  administracao_palmares: { corte: 33.85, campus: "Palmares" },
-  servico_social_palmares: { corte: 31.96, campus: "Palmares" }
+  engenharia_software_surubim: { corte: 42.57, campus: "Surubim" },
+  sistemas_informacao_surubim: { corte: 44.65, campus: "Surubim" }
 };
 
 function calcularNota3() {
