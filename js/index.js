@@ -23,7 +23,7 @@ const cursos = {
   sistemas_informacao_caruaru: { corte: 52.95, campus: "Caruaru" },
   administracao_caruaru: { corte: 36.45, campus: "Caruaru" },
 
-  // Nazré da Mata
+  // Nazaré da Mata
   ciencia_computacao_nazare: { corte: 43.90, campus: "Nazré da Mata" },
   ciencias_biologicas_nazare: { corte: 32.16, campus: "Nazré da Mata" },
   geografia_nazare: { corte: 26.36, campus: "Nazré da Mata" },
@@ -45,12 +45,12 @@ const cursos = {
   fisioterapia_petrolina: { corte: 46.56, campus: "Petrolina" },
   enfermagem_petrolina: { corte: 42.67, campus: "Petrolina" },
   nutricao_petrolina: { corte: 36.27, campus: "Petrolina" },
-  geografia_petrolina: { corte: 32.56, campus: "Petrolina" },
-  historia_petrolina: { corte: 32.00, campus: "Petrolina" },
-  letras_port_ingles_petrolina: { corte: 28.65, campus: "Petrolina" },
-  letras_port_espanhol_petrolina: { corte: 23.56, campus: "Petrolina" },
-  matematica_petrolina: { corte: 35.00, campus: "Petrolina" },
   ciencias_biologicas_l_petrolina: { corte: 38.45, campus: "Petrolina" },
+  geografia_petrolina: { corte: 32.56, campus: "Petrolina" },
+  letras_port_esp_petrolina: { corte: 23.56, campus: "Petrolina" },
+  letras_port_ing_petrolina: { corte: 28.65, campus: "Petrolina" },
+  matematica_petrolina: { corte: 35.00, campus: "Petrolina" },
+  historia_petrolina: { corte: 32.00, campus: "Petrolina" },
   pedagogia_petrolina: { corte: 25.00, campus: "Petrolina" },
 
   // Arcoverde
@@ -62,8 +62,17 @@ const cursos = {
 
   // Surubim
   engenharia_software_surubim: { corte: 42.57, campus: "Surubim" },
-  sistemas_informacao_surubim: { corte: 44.65, campus: "Surubim" }
+  sistemas_informacao_surubim: { corte: 44.65, campus: "Surubim" },
+
+  // Palmares
+  administracao_palmares: { corte: 33.85, campus: "Palmares" },
+  servico_social_palmares: { corte: 31.96, campus: "Palmares" },
+
+  // Ouricuri
+  ciencias_contabeis_ouricuri: { corte: 30.00, campus: "Ouricuri" },
+  administracao_ouricuri: { corte: 29.50, campus: "Ouricuri" }
 };
+
 
 function calcularNota3() {
   const nota1Input = document.getElementById("nota1");
